@@ -1,0 +1,159 @@
+.holder-agents {
+    margin: 5rem 0;
+}
+
+.holder-agents .header-page {
+    text-align: center;
+}
+
+.holder-agents .header-page h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 47px;
+/* identical to box height */
+    text-align: center;
+    color: #373A4A;
+}
+
+.holder-agents .header-page > span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #ABAEC2;
+}
+
+.holder-agents .header-page .holder-input-search {margin-top: 2rem;}
+
+.holder-agents .header-page .holder-input-search .row-item {
+    display: flex;
+    background: rgba(153, 157, 182, 0.08);
+    border-radius: 40px;
+}
+
+.holder-agents .header-page .holder-input-search .row-item .holder-input {
+    flex: auto;
+    position: relative;
+    width: 60%;
+}
+
+.holder-agents .header-page .holder-input-search .row-item .holder-perovince {
+    flex: auto;
+    width: 40%;
+}
+
+.holder-agents .header-page .holder-input-search .row-item .holder-input i {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 16px;
+    line-height: 50px;
+}
+.holder-agents .header-page .holder-input-search .row-item .holder-perovince input.form-control{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    height: 50px;
+}
+.holder-agents .header-page .holder-input-search .row-item .holder-perovince  .form-outline .form-control~.form-notch *{
+    border:none;
+}
+.holder-agents .header-page .holder-input-search .row-item .holder-perovince input.form-control::placeholder{
+    color: #00D7DB;
+}
+.holder-agents .header-page .holder-input-search .row-item .holder-perovince .select-arrow{
+    color: #00D7DB;
+    font-size: 16px;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+.holder-agents .header-page .holder-input-search .row-item .holder-perovince .select-arrow:before{
+    
+}
+.holder-agents .header-page .holder-input-search .row-item .holder-input input.form-control {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    height: 50px;
+    padding-right: 2.5rem;
+}
+.holder-agents .header-page .holder-input-search .row-item .holder-input input.form-control::placeholder{
+    padding-right:0;
+}
+
+.holder-agents .header-page .holder-input-search .row-item .holder-input:after {
+    content: "";
+    background: #AFB2C5;
+    height: 80%;
+    width: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: .4rem;
+    margin: auto;
+    display:none;
+}
+
+.holder-agents .body-content {}
+
+.holder-agents .body-content .holder-item {
+    margin-top: 3rem;
+}
+
+.holder-agents .body-content .holder-item .item {
+    margin-bottom: 1.5rem;
+}
+
+.holder-agents .body-content .holder-item .item figure {}
+
+.holder-agents .body-content .holder-item .item figure img {
+    width: 100%;
+}
+
+.holder-agents .body-content .holder-item .item .text-hold {}
+
+.holder-agents .body-content .holder-item .item .text-hold h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+/* identical to box height, or 139% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+/* Secondary / Dark Charcoal */
+    color: #42444D;
+}
+
+.holder-agents .body-content .holder-item .item .text-hold ul {
+    direction: rtl;
+}
+
+.holder-agents .body-content .holder-item .item .text-hold ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+/* or 164% */
+    align-items: center;
+    text-align: right;
+
+/* Secondary / Text Grey */
+    color: #686A71;
+}
+
+.holder-agents .body-content .holder-item .item .text-hold ul li i {
+    margin-left: 1rem;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.holder-agents .body-content .holder-item .item .text-hold ul li a {
+    direction: ltr;
+    color: #686A71;
+}

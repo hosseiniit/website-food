@@ -1,0 +1,366 @@
+.container-login{
+
+}
+.container-login .bg-img{
+    background-image: url('./../../public/content/images/login/bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.container-login .row-page {
+    display: flex;
+}
+
+.container-login .row-page .holder-img {
+    flex: auto;
+    width: 45%;
+}
+
+.container-login .row-page .holder-form {
+    flex: auto;
+    width: 55%;
+}
+.container-login .row-page .holder-form .warrper-auto {
+    display: flex;
+    height: 100%;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form {
+    flex: auto;
+    margin: auto;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .row.justify-content-center {
+    margin: 0;
+}
+
+.container-login .row-page .holder-form .holder-back {
+    position: absolute;
+    top: 2rem;
+    right:  2rem;
+}
+
+.container-login .row-page .holder-form .holder-back a {
+    background: rgba(153, 157, 182, 0.16);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+/* identical to box height */
+    text-align: center;
+    color: #676C92;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .header-title {
+    margin-bottom: 2rem;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .header-title h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+/* identical to box height, or 38px */
+    color: #00D7DB;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .header-title p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+/* identical to box height, or 20px */
+    
+    
+    
+
+/* text - 02 */
+    color: #9291A9;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content {
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content label.form-label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+/* identical to box height, or 20px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+/* Gray 1 */
+    color: #333333;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content input.form-control {
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    line-height: 50px;
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content input.form-control::placeholder{
+    direction: rtl;
+    text-align: right;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .forgetme {
+    display: block;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+/* identical to box height, or 17px */
+    
+
+/* Gray 1 */
+    color: #333333;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-check.form-switch {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input {
+    border-radius: 97.7397px !important;
+    height: 18px;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input:checked{
+    background: #00D7DB;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input:before {box-shadow: none;}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input:after {
+    width: 13.5px;
+    height: 13.5px;
+    margin-top: .15rem;
+    margin-right: .2rem;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input:focus:after{
+    background-color: #fff;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input:focus{
+    box-shadow: none;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input:checked:before {}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .form-switch .form-check-input:checked:after {margin-right: 1.0625rem;background-color: #fff;}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-captcha {
+    position: relative;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-captcha img {
+    position: absolute;
+    bottom: .25rem;
+    left: .25rem;
+    cursor: pointer;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-button {
+    margin-top: 3rem;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-button .btn {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 45px;
+    height:45px;
+    text-align: center;
+    padding-top:0;
+    padding-bottom:0;
+    width: 100%;
+    color: #fff;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-button .btn:first-child{
+    background: #00D7DB;
+    color: #FFFFFF !important;
+    border-radius: 8px;
+}
+.btn:disabled,
+.btn.disabled{
+    background: #ccc !important;
+}
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-button .btn:last-child{
+    border: 2px solid #00D7DB;
+    color: #00D7DB;
+    border-radius: 8px;
+}
+
+
+
+
+.container-login .row-page .holder-form .warrper-auto .container-form .header-title h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+/* identical to box height, or 29px */
+    text-align: center;
+    color: #373A4A;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn {
+    width: 155px;
+    margin: auto;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item {
+    display: flex;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .holder-icon {
+    margin: auto;
+    text-align: left;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .holder-icon i {
+    font-size: 16px;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .msisdn {
+    margin: auto;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .msisdn span {
+    font-size: 14px;
+    display: block;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .holder-button {
+    margin: auto;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .holder-button .btn {}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .holder-button a {
+    background: #EFEFF3;
+    border-radius: 8px;
+    color: #000;
+    width: 36px;
+    height: 36px;
+    display: block;
+    text-align: center;
+    line-height: 36px;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-msisdn .row-item .holder-button a i {}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-otp {
+    position: relative;
+}
+
+.container-login .row-page .holder-form .warrper-auto .container-form .body-content .holder-otp .otp-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    direction: ltr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+/* or 157% */
+    text-align: right;
+    color: #373A4A;
+}
+@media screen and (max-width: 768px){
+    .container-login .bg-img{
+        background-position: top center;
+    }
+}
+@media screen and (max-width: 600px){
+    .container-login{
+        height: 100vh;
+    }
+    .container-login .row-page{
+        height:100%;
+    }
+    .container-login .row-page .holder-img{
+        display:none;
+    }
+    .container-login .row-page .holder-form .holder-back{
+        display:none;
+    }
+    
+    .container-login .row-page .holder-form{
+        background: linear-gradient(179.96deg, #22535F 0.04%, #293A47 36.57%);
+    }
+    
+    .container-login .row-page .holder-form .warrper-auto .container-form{
+        height: 100%;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .body-content {
+        background: #FFFFFF;
+        border-radius: 40px 40px 0px 0px;
+        margin: auto auto 0;
+        width: 100%;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .header-title{
+        text-align: center;
+        margin: auto;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .header-title .holder-brand {
+        margin-bottom: 3rem;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .header-title h3{
+        color: #fff;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .header-title p{
+        color: #fff;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .row.justify-content-center{
+        height: 100%;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .row.justify-content-center > div {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .body-content form {
+        padding: 3rem 2rem;
+    }
+    .container-login .row-page .holder-form .warrper-auto .container-form .body-content .header-title{
+        padding-top: 3rem;
+    }
+}
+
+
+.holder-icon-pass i {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    z-index: 1;
+    display: block;
+}
+
+.holder-icon-pass {
+    position: relative;
+}
+
+.holder-icon-pass input {
+    padding-right: 2.5rem;
+}
+
+.holder-icon-pass input:placeholder-shown,.holder-icon-pass input:focus {
+    padding: .375rem .75rem;
+}
+
+.holder-icon-pass input:placeholder-shown + i,
+.holder-icon-pass input:focus + i{
+    display: none;
+}

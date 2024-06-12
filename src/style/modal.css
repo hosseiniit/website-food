@@ -1,0 +1,128 @@
+
+/*#region Modal*/
+.holder-modal-managment {
+    padding: 2rem;
+    
+  /* cards */
+  }
+  
+  .holder-modal-managment .holder-close {
+    position: relative;
+  }
+  
+  .holder-modal-managment .holder-close a {
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    background: none;
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+  }
+  
+  .holder-modal-managment .holder-close a i {
+    font-size: 36px;
+  }
+  
+  .holder-modal-managment .holder-text-managment {
+    padding: 2rem;
+  }
+  
+  .holder-modal-managment .holder-text-managment h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #373A4A;
+  }
+  
+  .holder-modal-managment .holder-text-managment h2:after {
+    content: "";
+    background: #00D7DB;
+    width: 90px;
+    margin: auto;
+    height: 2px;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .holder-modal-managment .holder-text-managment p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+  /* or 200% */
+    text-align: center;
+    color: rgba(103, 108, 146, 0.8);
+  }
+  
+  .holder-modal-managment .holder-text-managment .holder-form {}
+  
+  .holder-modal-managment .holder-text-managment .holder-form form {}
+  
+  .holder-modal-managment .holder-text-managment .holder-form form label.form-label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+  /* identical to box height, or 20px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+  
+  /* Gray 1 */
+    color: #333333;
+  }
+  
+  .holder-modal-managment .holder-text-managment .holder-form form .form-control {
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 0 1rem;
+    height: 50px;
+    line-height: 50px;
+  }
+  .holder-modal-managment .holder-text-managment .holder-form form .form-control::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #9291A9;
+  }
+  
+  .modal-backdrop {
+    background: rgba(54, 57, 73, 0.5);
+  }
+  
+  .modal-content {
+    background: #FFFFFF;
+    box-shadow: 8px 20px 40px rgba(153, 157, 182, 0.15);
+    border-radius: 20px;
+  }
+  
+  .modal.fade .modal-dialog {
+  }
+  
+  .holder-modal-managment .holder-text-managment .holder-form .holder-button {
+    padding-top: 1rem;
+  }
+  
+  .holder-modal-managment .holder-text-managment .holder-form .holder-button .btn {
+    background: #00D7DB;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+  /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    height: 45px;
+  }
+  /*#endregion Modal*/

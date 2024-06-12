@@ -1,0 +1,424 @@
+
+.holder-about{margin: 3rem 0 3rem;}
+.holder-about .holder-banner{
+    background-image: url('./../../public/content/images/aboutus/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    min-height:480px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.holder-about .holder-banner .holder-text-over{flex: auto;margin: auto;color: #fff;}
+.holder-about .holder-banner .holder-text{
+
+}
+.holder-about .holder-banner .holder-text .holder-text-banner{padding-right: 3rem;}
+.holder-about .holder-banner .holder-text .holder-text-banner h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 47px;
+/* identical to box height */
+    text-align: right;
+    margin-bottom: 2.5rem;
+}
+.holder-about .holder-banner .holder-text .holder-text-banner p{font-style: normal;font-weight: 400;font-size: 18px;line-height: 34px;
+/* or 189% */text-align: right;color: rgba(255, 255, 255, 0.8);}
+.holder-about .holder-banner .holder-text .holder-text-banner .holder-button{margin-top: 2.5rem;}
+.holder-about .holder-banner .holder-text .holder-text-banner .holder-button a{background: #00D7DB;border-radius: 8px;font-style: normal;font-weight: 700;font-size: 14px;line-height: 22px;
+/* identical to box height */text-align: center;color: #FFFFFF;} 
+.holder-about .holder-banner .holder-text .holder-text-banner .holder-button a i{display: inline-block;margin-left: .8rem;font-size: 16px;} 
+
+.holder-about .holder-banner{
+    min-height:480px;
+    border-radius: 20px;
+    display: flex;
+}
+.holder-about .holder-banner .holder-text-over{flex: auto;margin: auto;color: #fff;}
+.holder-about .holder-banner .holder-text{
+
+}
+.holder-about .holder-banner .holder-text .holder-text-banner{padding-right: 3rem;}
+.holder-about .holder-banner .holder-text .holder-text-banner h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 47px;
+/* identical to box height */
+    text-align: right;
+    margin-bottom: 2.5rem;
+}
+.holder-about .holder-banner .holder-text .holder-text-banner p{font-style: normal;font-weight: 400;font-size: 18px;line-height: 34px;
+/* or 189% */text-align: right;color: rgba(255, 255, 255, 0.8);}
+.holder-about .holder-banner .holder-text .holder-text-banner .holder-button{margin-top: 2.5rem;}
+.holder-about .holder-banner .holder-text .holder-text-banner .holder-button a{background: #00D7DB;border-radius: 8px;font-style: normal;font-weight: 700;font-size: 14px;line-height: 22px;
+/* identical to box height */text-align: center;color: #FFFFFF;} 
+.holder-about .holder-banner .holder-text .holder-text-banner .holder-button a i{display: inline-block;margin-left: .8rem;font-size: 16px;} 
+
+.holder-about .holder-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    margin: 3rem 0;
+}
+
+.holder-about .holder-content h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #373A4A;
+}
+
+.holder-about .holder-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+/* or 189% */
+    text-align: center;
+    color: #676C92;
+}
+
+/*#region Colleage*/
+.holder-about .holder-colleage {
+    background: #293A47;
+    padding: 3rem;
+}
+
+.holder-about .holder-colleage .holder-item {}
+
+.holder-about .holder-colleage .holder-item .holder-title {
+    padding: 3rem 5rem;
+}
+
+.holder-about .holder-colleage .holder-item .holder-title h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 170%;
+/* or 75px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #00D7DB;
+}
+
+.holder-about .holder-colleage .holder-item .holder-title h2:before {
+    content: "";
+    background: #00D7DB;
+    width: 8px;
+    height: 110px;
+    display: block;
+    margin-left: 1.5rem;
+}
+
+.holder-about .holder-colleage .holder-item .item-person {
+    position: relative;
+    height: 255px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+}
+
+.holder-about .holder-colleage .holder-item .item-person figure {
+    margin: 0;
+}
+
+.holder-about .holder-colleage .holder-item .item-person figure img {
+}
+
+.holder-about .holder-colleage .holder-item .item-person .over-text {
+    position: absolute;
+    bottom: -70%;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    padding: 1rem;
+    transition: all .5s;
+}
+
+.holder-about .holder-colleage .holder-item .item-person .over-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+/* or 25px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+/* Secondary / Charcoal */
+    color: #23242B;
+}
+
+.holder-about .holder-colleage .holder-item .item-person .over-text span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2rem;
+/* identical to box height, or 20px */
+    align-items: center;
+    text-align: right;
+
+/* Secondary / Charcoal */
+    color: #23242B;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.holder-about .holder-colleage .holder-item .item-person .over-text p {
+}
+.holder-about .holder-colleage .holder-item .item-person .over-text *{
+    transition: all .5s;
+}
+.holder-about .holder-colleage .holder-item .item-person:hover  .over-text{
+    background: #00D7DB;
+    opacity: 0.8;
+    bottom: 0;
+    overflow: auto;
+    transition: all .5s;
+}
+.holder-about .holder-colleage .holder-item .item-person:hover  .over-text *{
+    color:#FFFFFF;
+    transition: all .5s;
+}
+
+.holder-about .holder-colleage .holder-item .item-text {
+    background: rgb(104 106 113 / 80%);
+    border-radius: 4px;
+    height: 255px;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.holder-about .holder-colleage .holder-item .item-text .center-auto{
+    flex:auto;
+    margin:auto;
+    text-align:center;
+}
+.holder-about .holder-colleage .holder-item .item-text .center-auto h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+/* identical to box height, or 48px */
+/* Secondary / White */
+    color: #FFFFFD;
+}
+.holder-about .holder-colleage .holder-item .item-text .center-auto h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+/* identical to box height, or 36px */
+    
+    
+
+/* Secondary / Dark Grey */
+    color: #999A9E;
+}
+/*#endregion Colleage*/
+
+.holder-about .holder-slider .slick-prev,.holder-about .holder-slider .slick-next{
+    background: none;
+}
+
+
+
+/*#region Slider */
+.holder-about .holder-slider {
+    margin: 5rem 0;
+}
+
+.holder-about .holder-slider .holder-slider-agent {}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item {}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item {
+    margin: 0 2rem;
+}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-img {}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-img img {
+    width: 100%;
+}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-text {
+    direction: rtl;
+    padding: 1rem 0;
+}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+/* identical to box height, or 139% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+/* Secondary / Dark Charcoal */
+    color: #42444D;
+}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-text ul {}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-text ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+/* or 164% */
+    
+
+/* Secondary / Text Grey */
+    color: #686A71;
+    direction: rtl;
+    line-height: 30px;
+}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-text ul li i {
+    display: inline-block;
+    margin-left: .5rem;
+}
+
+.holder-about .holder-slider .holder-slider-agent .holder-item .item .holder-text ul li a {
+    color: #686A71;
+    direction: ltr;
+}
+
+.holder-about .holder-slider .holder-title {
+    text-align:center;
+}
+
+.holder-about .holder-slider .holder-title h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #373A4A;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.holder-about .holder-slider .holder-title h2:after {
+    content: "";
+    background: #00D7DB;
+    display: block;
+    height: 2px;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+/*#endregion Slider */
+
+
+.holder-about .holder-certificate .holder-title {
+    text-align:center;
+}
+
+.holder-about .holder-certificate .holder-title h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #373A4A;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.holder-about .holder-certificate .holder-title h2:after {
+    content: "";
+    background: #00D7DB;
+    display: block;
+    height: 2px;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.holder-about .holder-certificate {}
+
+.holder-about .holder-certificate .holder-slider-agent {}
+
+.holder-about .holder-certificate .holder-slider-cert {}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item {}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item .item {
+    margin: 0 3rem;
+}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item .item figure {padding: 2rem;background: #E9E9E9;border-radius: 4px;}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item .item figure img {
+    width: 100%;
+}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item .item figure .holder-text {}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item .item figure .holder-text span {}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item .item .holder-text {}
+
+.holder-about .holder-certificate .holder-slider-cert .holder-item .item .holder-text span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+/* or 22px */
+    display: flex;
+    align-items: center;
+    color: #535353;
+    font-family: roboto;
+    text-align: left;
+}
+.holder-about .holder-certificate .holder-slider-cert .slick-arrow.slick-next,.holder-about .holder-certificate .holder-slider-cert .slick-arrow.slick-prev {
+    background: none;
+}
+
+@media screen and (max-width:768px){
+    .holder-about .holder-colleage .holder-item .holder-title{
+        padding: 1rem;
+    }
+    .holder-about{margin: 0 0 3rem;}
+}
+
+@media screen and (max-width:425px){
+    .holder-banner-container {
+        background-image: url("./../../public/content/images/aboutus/banner-mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top right;
+        min-height: 480px;
+        display: flex;
+    }
+    
+    .holder-banner-container > .container {
+        /* padding-left: 0; */
+        /* padding-right: 0; */
+        /* max-width: 100%; */
+        /* margin-left: 0; */
+        /* margin-right: 0; */
+    }
+    .holder-about .holder-banner{
+        background-image: none;
+        border-radius: 0;
+        background-size: cover;
+    }
+    .holder-about .holder-banner .holder-text .holder-text-banner{
+        padding-right: 1rem;
+    }
+    .holder-about .holder-colleage .holder-item .item-person figure img{
+        width: 100%;
+    }
+}
